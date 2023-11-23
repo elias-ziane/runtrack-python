@@ -2,5 +2,5 @@ def Listfruit():
     fruits = ["Pomme","Cerise","Orange"]
     return fruits
 
-    resultat = Listfruit()
-    print(resultat)
+resultat = Listfruit()
+print(resultat)
