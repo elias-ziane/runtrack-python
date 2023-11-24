@@ -4,13 +4,13 @@ liste_sans_doublons = []
 for element in liste_originale:
     doublon = False
 
-    # Vérifier si l'élément est déjà présent dans la liste sans doublons
+    # Vérifie si l'élément est déjà présent dans la liste sans doublons
     for item in liste_sans_doublons:
         if item == element:
             doublon = True
             break
 
-    # Si l'élément n'est pas un doublon, ajouter à la liste sans doublons en utilisant +=
+    # Vérifie si l'élément n'est pas un doublon, ajouter à la liste sans doublons en utilisant +=
     if not doublon:
         liste_sans_doublons += [element]
 
