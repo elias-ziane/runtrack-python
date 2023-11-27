@@ -1,4 +1,5 @@
 def draw_rectangle(width, height):
+    
     # Dessine la partie supérieure du rectangle
     print('-' * width)
 
@@ -10,4 +11,4 @@ def draw_rectangle(width, height):
     print('-' * width)
 
 # Exemple d'utilisation
-draw_rectangle(10, 5)
+draw_rectangle(10, 3)
