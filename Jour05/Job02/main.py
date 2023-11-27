@@ -1,14 +1,9 @@
-def draw_rectangle(width, height):
-    
-    # Dessine la partie supérieure du rectangle
-    print('-' * width)
+def draw_rectangle(width, height) -> None:
+    c = "-" * (width - 2)
+    space = " " * (width - 2)
+    print(f"|{c}|")
+    for k in range((height - 2)):
+        print(f"|{space}|")
+    print(f"|{c}|")
 
-    # Dessine les côtés du rectangle
-    for _ in range(height - 2):
-        print('|' + ' ' * (width - 2) + '|')
-
-    # Dessine la partie inférieure du rectangle
-    print('-' * width)
-
-# Exemple d'utilisation
 draw_rectangle(10, 3)
