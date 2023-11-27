@@ -1,9 +1,9 @@
 def draw_rectangle(width, height) :
     largeur = "-" * (width - 2)
-    esspace = " " * (width - 2)
-    print(f"|{la}|")
+    espace = " " * (width - 2)
+    print(f"|{largeur}|")
     for k in range((height - 2)):
-        print(f"|{space}|")
-    print(f"|{la}|")
+        print(f"|{espace}|")
+    print(f"|{largeur}|")
 
 draw_rectangle(10, 3)
